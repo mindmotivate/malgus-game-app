@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/malgus-game-app/precache-manifest.c698e581452f4e9e8582b0c3a7dcb1b1.js"
+  "/malgus-game-app/precache-manifest.2cbcf1dd511cc4e787fe86431feca44c.js"
 );
 
 self.addEventListener('message', (event) => {

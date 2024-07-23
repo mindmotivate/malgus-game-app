@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/malgus-game-app/static/css/main.cb2b127c.chunk.css",
-    "main.js": "/malgus-game-app/static/js/main.ec5a1b5a.chunk.js",
-    "main.js.map": "/malgus-game-app/static/js/main.ec5a1b5a.chunk.js.map",
+    "main.js": "/malgus-game-app/static/js/main.ba5de44f.chunk.js",
+    "main.js.map": "/malgus-game-app/static/js/main.ba5de44f.chunk.js.map",
     "runtime-main.js": "/malgus-game-app/static/js/runtime-main.ee7a8850.js",
     "runtime-main.js.map": "/malgus-game-app/static/js/runtime-main.ee7a8850.js.map",
     "static/js/2.3908a07a.chunk.js": "/malgus-game-app/static/js/2.3908a07a.chunk.js",
     "static/js/2.3908a07a.chunk.js.map": "/malgus-game-app/static/js/2.3908a07a.chunk.js.map",
     "index.html": "/malgus-game-app/index.html",
-    "precache-manifest.c698e581452f4e9e8582b0c3a7dcb1b1.js": "/malgus-game-app/precache-manifest.c698e581452f4e9e8582b0c3a7dcb1b1.js",
+    "precache-manifest.2cbcf1dd511cc4e787fe86431feca44c.js": "/malgus-game-app/precache-manifest.2cbcf1dd511cc4e787fe86431feca44c.js",
     "service-worker.js": "/malgus-game-app/service-worker.js",
     "static/css/main.cb2b127c.chunk.css.map": "/malgus-game-app/static/css/main.cb2b127c.chunk.css.map",
     "static/js/2.3908a07a.chunk.js.LICENSE.txt": "/malgus-game-app/static/js/2.3908a07a.chunk.js.LICENSE.txt",
-    "static/media/background.jpg": "/malgus-game-app/static/media/background.b97f964e.jpg"
+    "static/media/background.jpg": "/malgus-game-app/static/media/background.d84b2ac8.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.ee7a8850.js",
     "static/js/2.3908a07a.chunk.js",
     "static/css/main.cb2b127c.chunk.css",
-    "static/js/main.ec5a1b5a.chunk.js"
+    "static/js/main.ba5de44f.chunk.js"
   ]
 }
