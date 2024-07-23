@@ -13,3 +13,20 @@
 For detailed setup instructions and usage, please refer to the accompanying documentation files.
 
 ![Malgus Tetris](src/images/malgustetris.jpg)
+
+## Important
+
+When setting up your cloned repository, please make the following updates:
+
+1. **Update Project Name**:
+   - Change `"name": "malgus-game-app"` in `package.json` to your own project name.
+
+2. **Update Homepage URL**:
+   - Modify `"homepage": "http://mindmotivate.github.io/malgus-game-app"` in `package.json` to reflect your project's GitHub Pages URL (e.g., `"http://<your-username>.github.io/<your-repo-name>"`).
+
+3. **Create GitHub Secret Token**:
+   - Go to your repository's settings on GitHub.
+   - Navigate to "Secrets and variables" > "Actions."
+   - Click "New repository secret" and create a secret named `ACTIONS_DEPLOY_ACCESS_TOKEN` with your GitHub token as the value.
+
+These steps are essential for ensuring your project is correctly configured and securely deployed.

@@ -25,6 +25,7 @@ This tutorial guides you through building, running, and playing a React-based ga
 
 Ensure your Dockerfile is set up for your React-based game. It should look like this:
 
+https://github.com/mindmotivate/malgus-game-app/blob/main/Dockerfile
 
 
 
@@ -62,7 +63,7 @@ The container will start, and your React app (game) will be running inside it.
 
    You should see your game running in the browser. You can now start playing the game!
 
-## 5. Optional: Stop the Docker Container and clean up your shit
+## *Optional: Stop the Docker Container and clean up your shit
 
 If you need to stop the running container, first find the container ID or name by running:
 
@@ -76,7 +77,7 @@ Stop the container using the container ID or name:
 docker stop <container_id_or_name>
 ```
 
-## 6. Optional: Remove the Docker Container and Image
+## *Optional: Remove the Docker Container and Image
 
 To remove the stopped container:
 
@@ -90,19 +91,47 @@ To remove the Docker image:
 docker rmi malgus-game-app:v1
 ```
 
-## Summary
-
-- **Prepare Dockerfile**: Ensure the Dockerfile is set up for your React-based game.
-- **Build Image**: Use `docker build -t malgus-game-app .` to create the Docker image.
-- **Run Container**: Start the container with `docker run -p 3000:3000 malgus-game-app`.
-- **Access Game**: Visit [http://localhost:3000]
 
 
 
-***. Extras: Push the Docker Image to Dockerhub?
+
+## *Optional: Push the Docker Image to Dockerhub:
 
 
+```sh
 docker push your-dockerhub-username/your-image-name:tag
+```
+Example Usage:
+```sh
+docker tag malgus-game-app:v1 motivatedmind336/malgus-game:latest
+
+```
+
+```sh
+docker login
+```
+
+```sh
+docker push motivatedmind336/malgus-game:latest
+```
+
+```sh
+docker pull motivatedmind336/malgus-game
+```
 
 
-***. Extras: Github Dockerhub?
+
+
+
+
+## Important Note on Naming Conventions
+
+When running and playing the React-based game with Docker, make sure to customize the following elements to fit your project:
+
+1. **Docker Image Name**:
+   - Ensure the Docker image name in commands matches your project's name. For example, if the image name is `motivatedmind336/malgus-game`, replace `motivatedmind336/malgus-game` with your own Docker Hub repository name.
+
+2. **Repository and Project Naming**:
+   - Update any references to your project's repository and directory names to reflect your actual project names.
+
+Customizing these details is crucial to align the setup with your specific project and avoid conflicts. Be sure to verify all names and paths before running Docker commands.
