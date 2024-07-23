@@ -43,3 +43,6 @@ jobs:
           folder: build
         env:
           ACCESS_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+
+      #- name: Output GitHub Pages URL
+      #  run: echo "Your site is live at http://${{ github.actor }}.github.io/${{ github.repository }}"  
